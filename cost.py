@@ -1,6 +1,6 @@
 def calculate_total_cost(meal,tip=15):
     total_cost = meal*(1+(tip/100))
-    print(f"The total cost of the meal is {total_cost: .2f}")
+    print(f"The total cost of the meal is ${total_cost: .2f}")
     
 while True:
     try:    
